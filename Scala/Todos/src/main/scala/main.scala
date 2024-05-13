@@ -1,4 +1,6 @@
 @main
 def main(): Unit = {
-  println("Hello world!")
+
+  val sampleTodo: TodoClass = new TodoClass("Eat Dinner","Gobble up some food",100L,"Low")
+  print(sampleTodo)
 }
